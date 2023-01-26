@@ -53,7 +53,8 @@ a:hover {
     margin: 20px;
     margin-top: 95px;
     display: inline-block;
-}
+    border: solid black;
+ }
 
 #rodape {
     background-color: rgb(0, 7, 45);
@@ -68,8 +69,15 @@ a:hover {
 
 #licoes_aprendidas {
     display: inline-block;
+    border: solid black;
 }
 
-div {
-    border-color: solid black;
+#aprendizado , a {
+    color: rgb(10, 36, 114);
+    border: solid black;
+}
+
+ol{
+    display: flex;
+    border: solid black;
 }
